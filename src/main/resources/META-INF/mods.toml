@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="47,)"
+license="All Rights Reserved, DragN0007"
+#issueTrackerURL="https://discord.gg/2WznNTtVac"
+[[mods]]
+modId="advanced_horses"
+version="${1.0}"
+displayName="Advanced Horses"
+logoFile=".png"
+authors="Advanced Horses Team, DragN0007"
+description='''
+
+'''
+[[dependencies.advanced_horses]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.advanced_horses]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1]"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.advanced_horses]]
+modId="geckolib"
+mandatory=true
+versionRange = "[4.4.4,)"
+ordering="NONE"
+side="BOTH"
+[[mixins]]
+config = "advanced_horses.mixins.json"
